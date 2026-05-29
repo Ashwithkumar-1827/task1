@@ -6,7 +6,7 @@ const WordCounter = () => {
 
   const countWord = (event) => {
     const text = event.target.value;
-    const words = text.trim().split(/\s+/);
+    const words = text.trim().split(\s+/);
     setWordCount(words.length);
   };
 
